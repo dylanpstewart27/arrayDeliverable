@@ -13,10 +13,10 @@ namespace arrayDeliverable
             // The Foreach loop
             foreach (int i in numbers)
             {
-                Console.Write(i + " ");
+                Console.Write("element " + i + " " + "\n");
             }
             Console.WriteLine("Press any key to exit the program ...");
-            Console.ReadKey(true);
+            
         }
     }
 }
